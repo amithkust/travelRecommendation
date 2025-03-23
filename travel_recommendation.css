@@ -1,0 +1,141 @@
+/* Basic CSS for the navigation bar */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+nav {
+    background-color: #52d0ce;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+  }
+  
+  /* Center the <a> elements */
+nav ul {
+    list-style-type: none;
+    }
+  
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #991111;
+    font-weight: bold;
+    margin: 0 15px; /* Add space between links */
+    align-items: center; /* Center <a> elements vertically */
+    
+  }
+  
+  /* Basic CSS for the form elements */
+  /*body {
+    font-family: Arial, sans-serif;
+     } */
+  body {
+    font-family: Arial, sans-serif;
+    background-image: url('city.jpg'); /* Replace with your image path */
+    background-size: cover; /* Ensures the image covers the entire background */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-attachment: fixed; /* Optional: Makes the background fixed while scrolling */
+  }
+  h1 {
+    margin-bottom: 20px;
+  }
+  
+  div {
+    margin-bottom: 10px;
+  }
+  
+  label {
+    display: inline-block;
+    width: 100px;
+  }
+  
+  input[type="text"],
+  input[type="number"],
+  select {
+    width: 200px;
+    padding: 5px;
+  }
+  
+  button {
+    padding: 7px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Basic CSS for the report section */
+  h2 {
+    margin-top: 30px;
+  }
+  
+  #report,#result {
+    padding: 10px;
+    max-width: 400px;
+    word-wrap: break-word;
+  }
+#result{
+  height: 400px;
+  width: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+}
+  #result img{
+    width: 200px;
+    height: 100px;
+  }
+  
+  /* Style for the search results container */
+.search-results {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+  }
+  
+  /* Style for individual search results */
+  .search-results .result {
+    margin-bottom: 20px;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .search-results .result:last-child {
+    border-bottom: none;
+  }
+  
+  .search-results .result h2 {
+    margin-bottom: 10px;
+    color: #333; /* Dark text color */
+    font-size: 24px; /* Larger font size for headings */
+  }
+  
+  .search-results .result img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .search-results .result p {
+    color: #555; /* Dark gray text color */
+    font-size: 16px; /* Larger font size for descriptions */
+  }

@@ -1,0 +1,56 @@
+{
+    "id": 1,
+    "name": "Australia",
+    "cities": [
+      {
+        "name": "Sydney",
+        "image": "images/Sydney.jpg",
+        "description": "Sydney is Australia's largest city and a global hub for culture, art, and entertainment. Visit the iconic Sydney Opera House and Harbour Bridge."
+      },
+      {
+        "name": "Melbourne",
+        "image": "images/Melbourne.jpg",
+        "description": "Melbourne is known for its vibrant arts scene, coffee culture, and diverse cuisine. Explore the laneways and enjoy the city's unique vibe."
+      },
+      {
+        "name": "Brisbane",
+        "image": "images/Brisbane.jpg",
+        "description": "Brisbane is a sunny city with a relaxed atmosphere. Visit the South Bank Parklands and enjoy the city's outdoor lifestyle."
+      },
+      {
+        "name": "Gold Coast",
+        "image": "images/GoldCoast.jpg",
+        "description": "The Gold Coast is famous for its stunning beaches, surfing spots, and theme parks like Warner Bros. Movie World."
+      },
+      {
+        "name": "Perth",
+        "image": "images/Perth.jpg",
+        "description": "Perth is a vibrant city on the west coast, known for its beautiful parks, beaches, and the Swan River."
+      },
+      {
+        "name": "Adelaide",
+        "image": "images/Adelaide.jpg",
+        "description": "Adelaide is known for its wine regions, festivals, and cultural events. Explore the Barossa Valley and enjoy the city's charm."
+      },
+      {
+        "name": "Cairns",
+        "image": "images/Cairns.jpg",
+        "description": "Cairns is the gateway to the Great Barrier Reef and Daintree Rainforest. Perfect for adventure seekers and nature lovers."
+      },
+      {
+        "name": "Canberra",
+        "image": "images/Canberra.jpg",
+        "description": "Canberra is Australia's capital city, home to national monuments, museums, and beautiful parks."
+      },
+      {
+        "name": "Hobart",
+        "image": "images/Hobart.jpg",
+        "description": "Hobart is a charming city with a rich history. Visit the MONA museum and explore the nearby wilderness."
+      },
+      {
+        "name": "Darwin",
+        "image": "images/Darwin.jpg",
+        "description": "Darwin is a tropical city with a laid-back vibe. Explore the Kakadu National Park and enjoy the outdoor markets."
+      }
+    ]
+  }
